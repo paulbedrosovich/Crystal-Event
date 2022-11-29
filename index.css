@@ -15,6 +15,7 @@
     background-color: black;
     background-size: 1920px 1080px;
     background-repeat: no-repeat;
+    font-family: 'Anton', sans-serif;
 }
 .buttons {
     margin-left: 750px;
@@ -36,8 +37,7 @@
     color: white;
     height: 100px;
     font-size: 20px;
-    font-family: 'Roboto Condensed', sans-serif;
-    font-weight: bold;
+    font-family: 'Anton', sans-serif;    font-weight: bold;
 }
 .buttons button:hover {
     transition: all 0.3s ease ;
@@ -61,8 +61,7 @@
     font-size: 50px;
     color: white;
     transform: rotate(-10deg);
-    font-family: 'Roboto Condensed', sans-serif;
-    font-weight: bold;
+    font-family: 'Anton', sans-serif;    font-weight: bold;
 }
 .concert p {
     transform:skew(-20deg);
@@ -71,16 +70,16 @@
     padding-left: 100px;
     padding-top: 10px;
     display: flex;
-    font-family: 'Roboto Condensed', sans-serif;
+    font-family: 'Anton', sans-serif;
 }
 .ticket button{
     border-radius: 100px 100px 100px 100px;
-    background-color: indianred;
+    background: linear-gradient(orange,red);
     width: 200px;
     height: 200px;
     font-size: 50px;
-    font-weight: bold;
-    font-family: 'Roboto Condensed', sans-serif;
+    font-family: 'Anton', sans-serif;
+    border: 4px ridge black;
 }
 .concert hr {
     margin: 10px;
@@ -94,6 +93,13 @@
     background-color: orange;
     margin: 20px;
     font-weight: bold;
+    font-family: 'Anton', sans-serif;
+}
+.upper {
+    font-family: 'Anton', sans-serif;
+}
+.uppper {
+    font-family: 'Anton', sans-serif;
 }
 .handsup {
     padding-left: 780px;
@@ -110,8 +116,7 @@
 }
 .lorim {
     color: white;
-    font-family: 'Roboto Condensed', sans-serif;
-    font-size: 30px;
+    font-family: 'Anton', sans-serif;    font-size: 30px;
     padding: 100px;
     text-align: center;
 }
@@ -119,31 +124,34 @@
     color: white;
     display: flex;
     font-size: 25px;
-    font-family: 'Roboto Condensed', sans-serif;
-
-
+    font-family: 'Anton', sans-serif;
+    padding-left: 180px;
 }
 .orange {
     padding-left: 130px;
     color: orange;
     padding-right: 20px;
+    font-family: 'Anton', sans-serif;
 
 }
 .bord {
     border-right:6px solid white ;
     padding-right: 20px;
+    font-family: 'Anton', sans-serif;
 }
 .orangee {
     padding-left: 20px;
     color: orange;
+    font-family: 'Anton', sans-serif;
 }
 .xyi {
     padding-left: 20px;
+    font-family: 'Anton', sans-serif;
 }
 .orannge {
     color: orange;
     font-size: 70px;
-    font-family: 'Roboto Condensed', sans-serif;
+    font-family: 'Anton', sans-serif;
     text-align: center;
     padding-top: 0px;
 
@@ -153,12 +161,11 @@
     word-spacing: 50px;
     color: white;
     font-weight: bold;
-    font-family: 'Roboto Condensed', sans-serif;
-}
+    font-family: 'Anton', sans-serif;}
 .cyming {
     text-align: center;
     color: orange;
-    font-family: 'Roboto Condensed', sans-serif;
+    font-family: 'Anton', sans-serif;
     font-weight: bold;
     font-size: 35px;
     padding-top: 30px;
@@ -169,7 +176,7 @@
 
     border: 0;
     width: 450px;
-    border-top: 2mm double #ff4400;
+    border-top: 2mm double orange;
     margin-left: 660px;
 }
 .line2  {
@@ -177,9 +184,181 @@
 
     border: 0;
     width: 100px;
-    border-top: 2mm double #ff4400;
+    border-top: 2mm double orange;
     margin-left: 830px;
 }
+.cyming h2 {
+    font-family: 'Anton', sans-serif;
+}
+.lorim p {
+    font-family: 'Anton', sans-serif;
+}
+.middle{
+    width: 1761px;
+    height: 1000px;
+    background-color: black;
+
+}
+.stars {
+    width: 1761px;
+    height: 900px;
+    padding-left: 200px;
+    padding-right: 700px;
+    padding-top: 300px;
+    font-size: 30px;
+    word-spacing: 10px;
+    background-image: url("assets/rockers1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.stars h1 {
+    padding-bottom: 30px;
+    font-family: 'Anton', sans-serif;
+    color: orange;
+}
+.stars p {
+    font-family: 'Anton', sans-serif;
+    color: white;
+}
+
+.down {
+    background-color: black;
+    width: 1761px;
+    height: 1000px;
+}
+.boxes {
+    display: flex;
+}
+.box1 h2 {
+    color: white;
+    font-family: 'Anton', sans-serif;
+    font-size: 40px ;
+    text-align: center;
+}
+.box1 h1 {
+    color: orange;
+    padding-top: 20px;
+    text-align: center;
+    font-family: 'Anton', sans-serif;
+    font-size: 50px;
+}
+.box1 p{
+    color: white;
+    padding-top: 30px;
+    text-align: center;
+    font-family: 'Anton', sans-serif;
+}
+.box1 {
+    width: 300px;
+    height: 410px;
+    margin-left: 250px;
+    text-align: center;
+    padding-top: 50px;
+    border: double thick orange;
+
+}
+.buttons1 button {
+    background-color: transparent;
+    font-family: 'Anton', sans-serif;
+    width: 200px;
+    height: 80px;
+    border-radius: 30px 30px 30px 30px;
+    font-size: 30px;
+    color: white;
+    border: 0;
+
+
+}
+.buttons1 button:hover {
+    transition: all 0.3s ease;
+    background: orange;
+    color: black;
+}
+.box2{
+    width: 300px;
+    height: 410px;
+    margin-left: 200px;
+    text-align: center;
+    padding-top: 50px;
+    border: double thick orange;
+}
+.box2 h2 {
+    color: white;
+    font-family: 'Anton', sans-serif;
+    font-size: 40px ;
+    text-align: center;
+}
+.box2 h1 {
+    color: orange;
+    padding-top: 20px;
+    text-align: center;
+    font-family: 'Anton', sans-serif;
+    font-size: 50px;
+}
+.box2 p {
+    color: white;
+    padding-top: 30px;
+    text-align: center;
+    font-family: 'Anton', sans-serif;
+}
+.box2 button {
+    background-color: transparent;
+    font-family: 'Anton', sans-serif;
+    width: 200px;
+    height: 80px;
+    border-radius: 30px 30px 30px 30px;
+    font-size: 30px;
+    color: white;
+    border: 0;
+}
+.box2 button:hover{
+    transition: all 0.3s ease;
+    background: orange;
+    color: black;
+}
+.box3{
+    width: 300px;
+    height: 410px;
+    margin-left: 200px;
+    text-align: center;
+    padding-top: 50px;
+    border: double thick orange;
+}
+.box3 h2 {
+    color: white;
+    font-family: 'Anton', sans-serif;
+    font-size: 40px ;
+    text-align: center;
+}
+.box3 h1 {
+    color: orange;
+    padding-top: 20px;
+    text-align: center;
+    font-family: 'Anton', sans-serif;
+    font-size: 50px;
+}
+.box3 p {
+    color: white;
+    padding-top: 30px;
+    text-align: center;
+    font-family: 'Anton', sans-serif;
+}
+.box3 button {
+    background-color: transparent;
+    font-family: 'Anton', sans-serif;
+    width: 200px;
+    height: 80px;
+    border-radius: 30px 30px 30px 30px;
+    font-size: 30px;
+    color: white;
+    border: 0;
+}
+.box3 button:hover{
+    transition: all 0.3s ease;
+    background: orange;
+    color: black;
+}
+
 
 
 
