@@ -81,6 +81,11 @@
     font-family: 'Anton', sans-serif;
     border: 4px ridge black;
 }
+.ticket button:hover {
+    transition: all 0.3s ease ;
+    background: orange;
+    color: black;
+}
 .book {
     color: black;
     background-color: orange;
@@ -223,7 +228,7 @@
 .down {
     background-color: black;
     width: 1761px;
-    height: 1000px;
+    height: 900px;
 }
 .boxes {
     display: flex;
