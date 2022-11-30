@@ -358,6 +358,121 @@
     background: orange;
     color: black;
 }
+.bottom {
+    width: 1650px;
+    height: 300px;
+    margin-top: 150px;
+    margin-left: 50px;
+    margin-right: 50px ;
+    background-color: #1a1a1a;
+
+}
+.bottom img {
+    padding: 30px;
+}
+.home {
+    text-decoration: none;
+    color: white;
+    padding-top: 50px;
+    font-family: 'Anton', sans-serif;
+    margin-left: 800px;
+    height: 80px;
+
+}
+.butons {
+    display: flex;
+    font-size: 20px;
+    letter-spacing: 5px;
+}
+.tickets {
+    text-decoration: none;
+    color: white;
+    padding-top: 50px;
+    font-family: 'Anton', sans-serif;
+    margin-left: 40px;
+    height: 80px;
+}
+.about {
+    text-decoration: none;
+    color: white;
+    padding-top: 50px;
+    font-family: 'Anton', sans-serif;
+    margin-left: 40px;
+    height: 80px;
+}
+.starss {
+    text-decoration: none;
+    color: white;
+    padding-top: 50px;
+    font-family: 'Anton', sans-serif;
+    margin-left: 40px;
+    height: 80px;
+}
+.contactus {
+    text-decoration: none;
+    color: white;
+    padding-top: 50px;
+    font-family: 'Anton', sans-serif;
+    margin-left: 40px;
+    height: 80px;
+}
+.home:hover {
+    transition: all 0.3s ease;
+    color: orange;
+}
+.about:hover {
+    transition: all 0.3s ease;
+    color: orange;
+}
+.starss:hover {
+    transition: all 0.3s ease;
+    color: orange;
+}
+.tickets:hover {
+    transition: all 0.3s ease;
+    color: orange;
+}
+.contactus:hover {
+    transition: all 0.3s ease;
+    color: orange;
+}
+.call {
+    color: white;
+    font-family: 'Anton', sans-serif;
+    padding-left: 30px;
+    margin-top: 80px;
+    position: absolute;
+}
+.contacts {
+    display: flex;
+    margin-left: 30px;
+    margin-right: 30px;
+    position: absolute;
+}
+.contacts h1 {
+    color: white;
+    margin-top: 120px;
+    width: 200px;
+
+}
+.contacts p{
+    color: white;
+    padding-top: 10px;
+    padding-left: 50px;
+    word-spacing: 10px;
+    letter-spacing: 5px;
+    font-size: 10px;
+    margin-top: 120px;
+    width: 900px;
+}
+.twitter {
+    width: 100px;
+    height: 100px;
+    padding: 0;
+    margin-left: 350px;
+    margin-top: 80px;
+
+}
 
 
 
