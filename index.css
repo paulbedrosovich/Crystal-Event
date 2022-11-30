@@ -81,13 +81,6 @@
     font-family: 'Anton', sans-serif;
     border: 4px ridge black;
 }
-.concert hr {
-    margin: 10px;
-    padding: 0;
-    border: 0;
-    width: 400px;
-    border-top: 5px solid orange ;
-}
 .book {
     color: black;
     background-color: orange;
@@ -119,6 +112,7 @@
     font-family: 'Anton', sans-serif;    font-size: 30px;
     padding: 100px;
     text-align: center;
+    margin-top: 300px;
 }
 .doorsopen {
     color: white;
@@ -212,13 +206,18 @@
     background-size: cover;
 }
 .stars h1 {
-    padding-bottom: 30px;
+
     font-family: 'Anton', sans-serif;
     color: orange;
 }
 .stars p {
     font-family: 'Anton', sans-serif;
     color: white;
+}
+.stars hr {
+    border-top: 6px double orange;
+    width: 200px;
+    margin-bottom: 30px;
 }
 
 .down {
@@ -255,6 +254,7 @@
     text-align: center;
     padding-top: 50px;
     border: double thick orange;
+    background: linear-gradient(black, #212121);
 
 }
 .buttons1 button {
@@ -281,6 +281,7 @@
     text-align: center;
     padding-top: 50px;
     border: double thick orange;
+    background: linear-gradient(black, #212121);
 }
 .box2 h2 {
     color: white;
@@ -323,6 +324,7 @@
     text-align: center;
     padding-top: 50px;
     border: double thick orange;
+    background: linear-gradient(black, #212121);
 }
 .box3 h2 {
     color: white;
